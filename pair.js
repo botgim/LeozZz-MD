@@ -81,7 +81,7 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*ROBIN [𝙻𝚎𝚘𝚉𝚣𝚉🥷🏻]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GAOhr0qNK7KEvJwbenGivZ*`;
+            const sid = `*[𝙻𝚎𝚘𝚉𝚣𝚉🥷🏻]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GAOhr0qNK7KEvJwbenGivZ*`;
             const mg = `🛑 * code to anyone>>💸🧠* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
@@ -89,10 +89,10 @@ router.get("/", async (req, res) => {
               },
               caption: sid,
             });
-            const msg = await RobinPairWeb.sendMessage(user_jid, {
+            const msg = await Leo𝚉𝚣𝚉!¿⏳PairWeb.sendMessage(user_jid, {
               text: string_session,
             });
-            const msg1 = await RobinPairWeb.sendMessage(user_jid, { text: mg });
+            const msg1 = await LEO¡¿📣PairWeb.sendMessage(user_jid, { text: mg });
           } catch (e) {
             exec("pm2 restart prabath");
           }
